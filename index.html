@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy - Brick Master</title>
-<meta name="description" content="Privacy Policy for the mobile game Brick Master.">
+<meta name="description" content="Privacy Policy and Terms of Service for the mobile game Brick Master.">
 <meta name="robots" content="index, follow">
 <style>
   :root{
@@ -18,10 +18,10 @@
     }
   }
   *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
+  html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
   body{
     margin:0; background:var(--bg); color:var(--fg);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     font-size:16px; line-height:1.75;
   }
   .wrap{max-width:820px; margin:0 auto; padding:32px 20px 80px}
@@ -34,15 +34,16 @@
   li{margin:6px 0}
   a{color:var(--accent)}
   code{background:var(--code-bg); padding:1px 5px; border-radius:4px; font-size:.9em; word-break:break-all}
-  .switch{display:flex; gap:8px; margin-bottom:18px; flex-wrap:wrap}
-  .switch button{
-    font:inherit; font-size:.9rem; cursor:pointer; padding:6px 14px; border-radius:999px;
+  .tabs{display:flex; gap:8px; margin-bottom:18px; flex-wrap:wrap}
+  .tabs button{
+    font:inherit; font-size:.9rem; cursor:pointer; padding:6px 16px; border-radius:999px;
     border:1px solid var(--line); background:var(--card); color:var(--fg);
   }
-  .switch button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
+  .tabs button[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:#fff}
   .toc{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 18px; margin:24px 0}
   .toc ol{margin:0; padding-left:20px}
   .toc li{margin:3px 0; font-size:.94rem}
+  .legal{font-size:.95rem}
   table{width:100%; border-collapse:collapse; margin:14px 0; font-size:.92rem; display:block; overflow-x:auto}
   th,td{border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top}
   th{background:var(--card); font-weight:600; white-space:nowrap}
@@ -54,13 +55,13 @@
 <body>
 <div class="wrap">
 
-  <div class="switch" role="group" aria-label="Language">
-    <button type="button" data-lang="en" aria-pressed="true">English</button>
-    <button type="button" data-lang="zh" aria-pressed="false">简体中文</button>
+  <div class="tabs" role="group" aria-label="Document">
+    <button type="button" data-tab="privacy" aria-pressed="true">Privacy Policy</button>
+    <button type="button" data-tab="terms" aria-pressed="false">Terms of Service</button>
   </div>
 
-<!-- ==================== ENGLISH ==================== -->
-<section id="lang-en">
+<!-- ==================== PRIVACY POLICY ==================== -->
+<section id="tab-privacy">
   <header>
     <h1>Privacy Policy</h1>
     <p class="meta">Brick Master &nbsp;&middot;&nbsp; App ID: <code>com.mb.brickmaster</code></p>
@@ -74,24 +75,24 @@
   <div class="toc">
     <strong>Contents</strong>
     <ol>
-      <li><a href="#en-1">Information We Collect</a></li>
-      <li><a href="#en-2">What We Do Not Collect</a></li>
-      <li><a href="#en-3">How We Use Information</a></li>
-      <li><a href="#en-4">Legal Bases for Processing (EEA / UK)</a></li>
-      <li><a href="#en-5">Advertising and Tracking</a></li>
-      <li><a href="#en-6">Third-Party Services</a></li>
-      <li><a href="#en-7">How We Share Information</a></li>
-      <li><a href="#en-8">Data Retention</a></li>
-      <li><a href="#en-9">Data Security</a></li>
-      <li><a href="#en-10">Children's Privacy</a></li>
-      <li><a href="#en-11">International Data Transfers</a></li>
-      <li><a href="#en-12">Your Privacy Rights</a></li>
-      <li><a href="#en-13">Changes to This Policy</a></li>
-      <li><a href="#en-14">Contact Us</a></li>
+      <li><a href="#pp-1">Information We Collect</a></li>
+      <li><a href="#pp-2">What We Do Not Collect</a></li>
+      <li><a href="#pp-3">How We Use Information</a></li>
+      <li><a href="#pp-4">Legal Bases for Processing (EEA / UK)</a></li>
+      <li><a href="#pp-5">Advertising and Tracking</a></li>
+      <li><a href="#pp-6">Third-Party Services</a></li>
+      <li><a href="#pp-7">How We Share Information</a></li>
+      <li><a href="#pp-8">Data Retention</a></li>
+      <li><a href="#pp-9">Data Security</a></li>
+      <li><a href="#pp-10">Children's Privacy</a></li>
+      <li><a href="#pp-11">International Data Transfers</a></li>
+      <li><a href="#pp-12">Your Privacy Rights</a></li>
+      <li><a href="#pp-13">Changes to This Policy</a></li>
+      <li><a href="#pp-14">Contact Us</a></li>
     </ol>
   </div>
 
-  <h2 id="en-1">1. Information We Collect</h2>
+  <h2 id="pp-1">1. Information We Collect</h2>
 
   <h3>1.1 Information you provide directly</h3>
   <ul>
@@ -111,10 +112,10 @@
     <li><strong>Attribution data:</strong> install source, referral and campaign parameters, and deep-link parameters used to measure the effectiveness of our marketing.</li>
   </ul>
 
-  <h2 id="en-2">2. What We Do Not Collect</h2>
+  <h2 id="pp-2">2. What We Do Not Collect</h2>
   <p>We do <strong>not</strong> collect your real name, postal address, phone number, government ID, precise GPS location, contacts, calendar, photos, health data, microphone audio, or camera images. The Game does not request these permissions.</p>
 
-  <h2 id="en-3">3. How We Use Information</h2>
+  <h2 id="pp-3">3. How We Use Information</h2>
   <ul>
     <li>To operate the Game, save your progress, and restore it across devices.</li>
     <li>To deliver and validate in-app purchases and to prevent fraudulent transactions.</li>
@@ -127,7 +128,7 @@
   </ul>
   <p>We do not sell your personal information for money, and we do not use your information to make decisions that produce legal or similarly significant effects about you.</p>
 
-  <h2 id="en-4">4. Legal Bases for Processing (EEA / UK)</h2>
+  <h2 id="pp-4">4. Legal Bases for Processing (EEA / UK)</h2>
   <p>If you are located in the European Economic Area or the United Kingdom, we process your personal data on the following legal bases:</p>
   <ul>
     <li><strong>Performance of a contract</strong> &mdash; to provide the Game, save progress, and deliver purchases.</li>
@@ -136,7 +137,7 @@
     <li><strong>Legal obligation</strong> &mdash; where we must retain or disclose data by law.</li>
   </ul>
 
-  <h2 id="en-5">5. Advertising and Tracking</h2>
+  <h2 id="pp-5">5. Advertising and Tracking</h2>
   <p>The Game is free to play and supported by advertising, including rewarded video and interstitial ads. Our advertising partners may use identifiers and interaction data to select which ads to show and to measure their performance.</p>
 
   <h3>Consent and opt-out</h3>
@@ -147,7 +148,7 @@
   </ul>
   <p>Declining tracking does not remove ads &mdash; it means the ads you see are less relevant to you.</p>
 
-  <h2 id="en-6">6. Third-Party Services</h2>
+  <h2 id="pp-6">6. Third-Party Services</h2>
   <p>We use the following third-party services inside the Game. Each operates as an independent controller or processor of the data it receives, under its own privacy policy:</p>
 
   <table>
@@ -169,7 +170,7 @@
 
   <p class="meta">The exact set of active services may vary by platform, region, and app version. Some of the services listed above may be disabled in a given build.</p>
 
-  <h2 id="en-7">7. How We Share Information</h2>
+  <h2 id="pp-7">7. How We Share Information</h2>
   <p>We share information only in these circumstances:</p>
   <ul>
     <li><strong>With service providers</strong> listed in Section 6, strictly for the purposes described in this Policy.</li>
@@ -179,7 +180,7 @@
   </ul>
   <p>We do not sell your personal information to data brokers.</p>
 
-  <h2 id="en-8">8. Data Retention</h2>
+  <h2 id="pp-8">8. Data Retention</h2>
   <p>We retain data only as long as necessary for the purposes described above:</p>
   <ul>
     <li>Game progress tied to a linked account is kept while the account remains active, and is deleted within 90 days of a verified deletion request.</li>
@@ -189,18 +190,18 @@
   </ul>
   <p>Game data stored only on your device is removed when you uninstall the Game.</p>
 
-  <h2 id="en-9">9. Data Security</h2>
+  <h2 id="pp-9">9. Data Security</h2>
   <p>We use technical and organizational measures designed to protect your information, including encryption in transit (HTTPS/TLS), access controls, and limiting access to personnel who need it. No method of transmission or storage is completely secure, so we cannot guarantee absolute security.</p>
 
-  <h2 id="en-10">10. Children's Privacy</h2>
+  <h2 id="pp-10">10. Children's Privacy</h2>
   <p>The Game is not directed to children under the age of 13 (or under the applicable minimum age in your country, such as 16 in parts of the EEA). We do not knowingly collect personal information from children under that age.</p>
   <p>Where required, we apply age-appropriate settings and serve only non-personalized, contextual advertising to users identified as children.</p>
   <p>If you are a parent or guardian and believe your child has provided us with personal information, please contact us at the address in Section 14 and we will delete it promptly.</p>
 
-  <h2 id="en-11">11. International Data Transfers</h2>
+  <h2 id="pp-11">11. International Data Transfers</h2>
   <p>We and our service providers may process and store information in countries other than your own, including the United States and countries in Asia. Where data is transferred out of the EEA or the UK, we rely on appropriate safeguards such as the European Commission's Standard Contractual Clauses or an adequacy decision.</p>
 
-  <h2 id="en-12">12. Your Privacy Rights</h2>
+  <h2 id="pp-12">12. Your Privacy Rights</h2>
 
   <h3>12.1 Everyone</h3>
   <p>You may ask us to access, correct, or delete the information we hold about you, and you may object to or restrict certain processing. To make a request, email us at the address in Section 14 and include your in-game player ID (visible in the Game's settings screen) so that we can locate your data.</p>
@@ -214,10 +215,10 @@
   <h3>12.4 Deleting your data</h3>
   <p>You can delete all locally stored game data by uninstalling the Game. To request deletion of server-side data associated with a linked account, email us with your player ID; we will confirm and complete the deletion within 30 days, and no later than 90 days.</p>
 
-  <h2 id="en-13">13. Changes to This Policy</h2>
+  <h2 id="pp-13">13. Changes to This Policy</h2>
   <p>We may update this Policy from time to time. When we do, we will revise the "Last updated" date at the top of this page, and for material changes we will provide a notice inside the Game. Your continued use of the Game after an update means you accept the revised Policy.</p>
 
-  <h2 id="en-14">14. Contact Us</h2>
+  <h2 id="pp-14">14. Contact Us</h2>
   <p>If you have questions, requests, or complaints about this Policy or your data, contact us at:</p>
   <ul>
     <li><strong>Email:</strong> <a href="mailto:public.gamestudio@gmail.com">public.gamestudio@gmail.com</a></li>
@@ -226,170 +227,177 @@
   <p>We aim to respond to all requests within 30 days.</p>
 </section>
 
-<!-- ==================== 中文 ==================== -->
-<section id="lang-zh" hidden>
+<!-- ==================== TERMS OF SERVICE ==================== -->
+<section id="tab-terms" hidden>
   <header>
-    <h1>隐私政策</h1>
-    <p class="meta">Brick Master &nbsp;&middot;&nbsp; 应用标识：<code>com.mb.brickmaster</code></p>
-    <p class="meta">生效日期：2026 年 9 月 16 日 &nbsp;&middot;&nbsp; 最近更新：2026 年 9 月 16 日</p>
+    <h1>Terms of Service</h1>
+    <p class="meta">Brick Master &nbsp;&middot;&nbsp; App ID: <code>com.mb.brickmaster</code></p>
+    <p class="meta">Effective date: September 16, 2026 &nbsp;&middot;&nbsp; Last updated: September 16, 2026</p>
   </header>
 
-  <p>本隐私政策说明 <strong>MoBi GameStudio</strong>（以下称"我们"）在您游玩 <strong>Brick Master</strong>（以下称"本游戏"）时，如何收集、使用、共享和保护您的信息。本游戏在 Apple App Store 与 Google Play 发行。</p>
+  <p>These Terms of Service (the "Terms") form a binding agreement between you and <strong>MoBi GameStudio</strong> ("we", "us", or "our") governing your use of the mobile game <strong>Brick Master</strong>, including all updates, content, and related services (together, the "Game").</p>
 
-  <p>下载或使用本游戏即表示您同意本政策。如不同意，请勿使用本游戏。</p>
+  <p><strong>By downloading, installing, or playing the Game, you accept these Terms.</strong> If you do not accept them, do not install or use the Game.</p>
 
   <div class="toc">
-    <strong>目录</strong>
+    <strong>Contents</strong>
     <ol>
-      <li><a href="#zh-1">我们收集的信息</a></li>
-      <li><a href="#zh-2">我们不收集的信息</a></li>
-      <li><a href="#zh-3">信息的使用方式</a></li>
-      <li><a href="#zh-4">处理的法律依据（欧洲经济区／英国）</a></li>
-      <li><a href="#zh-5">广告与追踪</a></li>
-      <li><a href="#zh-6">第三方服务</a></li>
-      <li><a href="#zh-7">信息的共享</a></li>
-      <li><a href="#zh-8">数据保留期限</a></li>
-      <li><a href="#zh-9">数据安全</a></li>
-      <li><a href="#zh-10">儿童隐私</a></li>
-      <li><a href="#zh-11">数据跨境传输</a></li>
-      <li><a href="#zh-12">您的权利</a></li>
-      <li><a href="#zh-13">政策变更</a></li>
-      <li><a href="#zh-14">联系我们</a></li>
+      <li><a href="#tos-1">Eligibility and Age Requirements</a></li>
+      <li><a href="#tos-2">Licence to Use the Game</a></li>
+      <li><a href="#tos-3">Your Account and Game Progress</a></li>
+      <li><a href="#tos-4">Virtual Items and In-App Purchases</a></li>
+      <li><a href="#tos-5">Advertising</a></li>
+      <li><a href="#tos-6">Rules of Conduct</a></li>
+      <li><a href="#tos-7">Intellectual Property</a></li>
+      <li><a href="#tos-8">Feedback</a></li>
+      <li><a href="#tos-9">Third-Party Services and Platforms</a></li>
+      <li><a href="#tos-10">Updates, Availability, and Changes to the Game</a></li>
+      <li><a href="#tos-11">Suspension and Termination</a></li>
+      <li><a href="#tos-12">Disclaimer of Warranties</a></li>
+      <li><a href="#tos-13">Limitation of Liability</a></li>
+      <li><a href="#tos-14">Indemnification</a></li>
+      <li><a href="#tos-15">Governing Law and Disputes</a></li>
+      <li><a href="#tos-16">Additional Terms for Apple App Store Users</a></li>
+      <li><a href="#tos-17">Changes to These Terms</a></li>
+      <li><a href="#tos-18">General Provisions</a></li>
+      <li><a href="#tos-19">Contact Us</a></li>
     </ol>
   </div>
 
-  <h2 id="zh-1">1. 我们收集的信息</h2>
+  <h2 id="tos-1">1. Eligibility and Age Requirements</h2>
+  <p>You must be at least 13 years old (or the minimum age required in your country, such as 16 in parts of the European Economic Area) to use the Game. If you are under the age of majority where you live, you may use the Game only with the involvement and consent of a parent or legal guardian, who accepts these Terms on your behalf and is responsible for your activity, including any purchases.</p>
+  <p>By using the Game, you represent that you have the legal capacity to enter into these Terms and that you are not barred from doing so under any applicable law.</p>
 
-  <h3>1.1 您主动提供的信息</h3>
+  <h2 id="tos-2">2. Licence to Use the Game</h2>
+  <p>Subject to your compliance with these Terms, we grant you a limited, personal, non-exclusive, non-transferable, non-sublicensable, revocable licence to download and use one copy of the Game on a device you own or control, for your own private, non-commercial entertainment.</p>
+  <p>This is a licence, not a sale. We and our licensors retain all rights not expressly granted to you. You may not:</p>
   <ul>
-    <li><strong>账号绑定（可选）。</strong>若您选择使用 Apple、Google 或 Facebook 登录以备份游戏进度，我们会获得一个唯一账号标识；在平台提供的情况下，还会获得您的昵称与电子邮箱。登录完全可选，不登录亦可完整游玩。</li>
-    <li><strong>购买信息。</strong>应用内购买由 Apple 或 Google 处理。我们仅接收用于校验的购买凭证与商品标识。<em>我们不会接收或存储您的银行卡号、银行账户信息或账单地址。</em></li>
-    <li><strong>客服往来信息。</strong>您联系我们时，我们会保留您的邮件内容与邮箱地址，以便回复。</li>
+    <li>copy, reproduce, distribute, rent, lease, lend, sell, or sublicense the Game or any part of it;</li>
+    <li>modify, adapt, translate, or create derivative works based on the Game;</li>
+    <li>reverse engineer, decompile, or disassemble the Game, except to the limited extent that applicable law expressly permits this despite this restriction;</li>
+    <li>remove, obscure, or alter any copyright, trademark, or other proprietary notice; or</li>
+    <li>use the Game for any commercial purpose, including advertising or paid streaming arrangements, without our prior written permission.</li>
   </ul>
 
-  <h3>1.2 自动收集的信息</h3>
+  <h2 id="tos-3">3. Your Account and Game Progress</h2>
+  <p>The Game can be played without registering an account. You may optionally link an Apple, Google, or Facebook account to back up and restore your progress across devices.</p>
   <ul>
-    <li><strong>设备与技术信息：</strong>设备型号、操作系统及版本、屏幕分辨率、语言与国家／地区设置、时区、网络连接类型、移动运营商。</li>
-    <li><strong>标识符：</strong>广告标识符（Apple IDFA、Google 广告 ID）、设备／应用范围标识符（Apple IDFV），以及随机生成的游戏内玩家 ID。</li>
-    <li><strong>IP 地址：</strong>用于判断国家或地区级别的大致位置、投放相应内容以及防范欺诈。我们不收集 GPS 或精确位置。</li>
-    <li><strong>游戏数据：</strong>关卡进度、分数、游戏内货币与道具余额、道具使用情况、会话起止时间与时长、功能使用情况。</li>
-    <li><strong>广告数据：</strong>广告的请求、展示、点击、完成情况以及发放的奖励。</li>
-    <li><strong>诊断数据：</strong>崩溃报告、错误日志、帧率与性能指标。</li>
-    <li><strong>归因数据：</strong>安装来源、推广活动参数与深度链接参数，用于衡量市场投放效果。</li>
+    <li>You are responsible for keeping your linked account credentials secure and for all activity that takes place through your account.</li>
+    <li>You must not share, sell, trade, or transfer your account or game progress to anyone else.</li>
+    <li>If you do not link an account, your progress is stored only on your device and will be permanently lost if you uninstall the Game, reset your device, or lose the device. We cannot recover local progress.</li>
+    <li>We may reset, restore, or adjust progress and balances where necessary to correct a technical fault, a bug, or an exploited defect.</li>
   </ul>
 
-  <h2 id="zh-2">2. 我们不收集的信息</h2>
-  <p>我们<strong>不会</strong>收集您的真实姓名、通信地址、电话号码、身份证件、GPS 精确位置、通讯录、日历、相册、健康数据、麦克风录音或摄像头影像。本游戏不会申请上述权限。</p>
+  <h2 id="tos-4">4. Virtual Items and In-App Purchases</h2>
+  <p>The Game is free to download and offers optional in-app purchases of virtual currency, boosters, bundles, and other digital items ("Virtual Items").</p>
 
-  <h2 id="zh-3">3. 信息的使用方式</h2>
+  <h3>4.1 Virtual Items have no real-world value</h3>
+  <p>Virtual Items are a limited, personal, revocable licence to use digital content inside the Game. <strong>They are not your property, they have no monetary value, and they cannot be redeemed for cash or anything of real-world value.</strong> You may not sell, trade, gift, or transfer Virtual Items outside the Game, and any attempt to do so is void and may result in suspension of your account.</p>
+
+  <h3>4.2 Purchases and payment</h3>
+  <p>All purchases are processed by Apple or Google through their respective stores, under their payment terms. We do not receive or handle your payment card details. Prices are shown in your local currency before you confirm, and may vary by region and change over time.</p>
+
+  <h3>4.3 Delivery and refunds</h3>
+  <p>Virtual Items are delivered immediately upon a successful transaction. <strong>All purchases are final and non-refundable except where a refund is required by applicable law, or where Apple or Google grants one under its own refund policy.</strong> Refund requests must be made directly to the store where you purchased:</p>
   <ul>
-    <li>运行本游戏、保存您的进度并在不同设备间恢复。</li>
-    <li>交付并校验应用内购买，防范欺诈交易。</li>
-    <li>展示广告；在您同意且法律允许的范围内展示个性化广告。</li>
-    <li>分析汇总后的游戏数据，用于调整难度、修复缺陷、改进功能。</li>
-    <li>诊断崩溃，提升稳定性与性能。</li>
-    <li>衡量市场推广活动的效果。</li>
-    <li>提供客户支持并回应您的请求。</li>
-    <li>履行法律义务并执行我们的服务条款。</li>
+    <li>Apple: <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a></li>
+    <li>Google Play: <a href="https://support.google.com/googleplay/answer/2479637" rel="noopener">Google Play refund request</a></li>
   </ul>
-  <p>我们不会为获取金钱对价而出售您的个人信息，也不会利用您的信息对您作出产生法律效果或类似重大影响的自动化决策。</p>
+  <p>If you live in the European Union or the United Kingdom, you have a statutory right to withdraw from a purchase of digital content within 14 days. By confirming a purchase and receiving the Virtual Items immediately, you expressly request immediate performance and acknowledge that you lose that right of withdrawal once delivery is complete.</p>
 
-  <h2 id="zh-4">4. 处理的法律依据（欧洲经济区／英国）</h2>
-  <p>若您位于欧洲经济区或英国，我们基于以下法律依据处理您的个人数据：</p>
+  <h3>4.4 Purchases by minors</h3>
+  <p>If you are a parent or guardian and a purchase was made from your device without your authorisation, contact the relevant store to request a refund. We recommend enabling purchase restrictions in your device settings (Screen Time on iOS, parental controls on Android).</p>
+
+  <h3>4.5 Changes and discontinuation</h3>
+  <p>We may add, modify, rebalance, suspend, or remove Virtual Items, prices, and offers at any time. If we permanently discontinue the Game, Virtual Items will cease to function, and except where required by law we are not obliged to provide compensation or a refund for unused Virtual Items.</p>
+
+  <h2 id="tos-5">5. Advertising</h2>
+  <p>The Game is supported by advertising, including banner, interstitial, and optional rewarded video ads. Watching a rewarded ad is always voluntary and is offered in exchange for an in-game benefit.</p>
+  <p>Advertisements are supplied by third-party networks. We do not control and are not responsible for the content of third-party ads or the products and services they promote. Your dealings with any advertiser are solely between you and that advertiser. How advertising data is handled is described in our <a href="#privacy" data-jump="privacy">Privacy Policy</a>.</p>
+
+  <h2 id="tos-6">6. Rules of Conduct</h2>
+  <p>When using the Game, you agree not to:</p>
   <ul>
-    <li><strong>履行合同</strong>——提供游戏服务、保存进度、交付购买内容。</li>
-    <li><strong>您的同意</strong>——用于个性化广告及相关追踪。您可随时撤回同意（见第 5 节）。</li>
-    <li><strong>正当利益</strong>——用于安全防护、反欺诈、汇总分析与产品改进，并已与您的权利进行衡平。</li>
-    <li><strong>法律义务</strong>——法律要求我们保留或披露数据的情形。</li>
+    <li>use cheats, bots, automation scripts, modified clients, memory editors, or any other software or hardware designed to gain an unfair advantage or to alter gameplay;</li>
+    <li>exploit bugs, glitches, or defects to obtain Virtual Items, currency, progress, or rewards you would not otherwise receive, or fail to report such a defect once you become aware of it;</li>
+    <li>interfere with, disrupt, overload, or attempt to gain unauthorised access to the Game, our servers, or any network connected to them;</li>
+    <li>circumvent, disable, or tamper with security, authentication, purchase validation, or advertising mechanisms;</li>
+    <li>upload or transmit any virus, malware, or other harmful code;</li>
+    <li>engage in fraudulent transactions, including chargeback abuse or the use of stolen payment credentials;</li>
+    <li>impersonate any person or entity, or misrepresent your affiliation with anyone; or</li>
+    <li>use the Game in any way that violates applicable law or infringes the rights of others.</li>
   </ul>
 
-  <h2 id="zh-5">5. 广告与追踪</h2>
-  <p>本游戏免费提供，通过广告（包括激励视频广告与插屏广告）获得收入。我们的广告合作方可能使用标识符与互动数据来决定展示哪些广告并衡量其效果。</p>
+  <h2 id="tos-7">7. Intellectual Property</h2>
+  <p>The Game and all of its content &mdash; including software, source code, artwork, level designs, characters, user interface, text, music, sound effects, and the "Brick Master" name and logo &mdash; are owned by us or our licensors and are protected by copyright, trademark, and other intellectual property laws.</p>
+  <p>Nothing in these Terms transfers any ownership to you. All rights not expressly granted are reserved.</p>
+  <p>You may create and share non-commercial gameplay videos, screenshots, and streams of the Game, provided you do not imply that we endorse or sponsor them, do not modify or obscure the Game's branding, and do not distribute the Game's assets separately from such content. We may withdraw this permission at any time.</p>
 
-  <h3>同意与退出</h3>
+  <h2 id="tos-8">8. Feedback</h2>
+  <p>If you send us suggestions, ideas, bug reports, or other feedback about the Game, you grant us a perpetual, irrevocable, worldwide, royalty-free licence to use, reproduce, modify, and incorporate that feedback into our products without any obligation of confidentiality, attribution, or compensation to you.</p>
+
+  <h2 id="tos-9">9. Third-Party Services and Platforms</h2>
+  <p>The Game is distributed through and interoperates with third-party platforms and services, including Apple, Google, advertising networks, and analytics providers. Your use of those platforms is governed by their own terms and privacy policies, which are separate from these Terms. We are not responsible for the availability, accuracy, or conduct of any third-party service.</p>
+
+  <h2 id="tos-10">10. Updates, Availability, and Changes to the Game</h2>
+  <p>We may release updates, patches, and new content, and may change, suspend, or discontinue any feature of the Game at any time. Some updates may be required for the Game to continue functioning, and older versions may stop working.</p>
+  <p>The Game is provided on an "as available" basis. We do not guarantee that it will be uninterrupted, error-free, or available at all times or in all territories, and we may perform maintenance, impose limits, or restrict access in particular regions.</p>
+
+  <h2 id="tos-11">11. Suspension and Termination</h2>
+  <p>You may stop using the Game at any time by uninstalling it.</p>
+  <p>We may suspend or terminate your access to the Game, in whole or in part, with or without notice, if we reasonably believe that you have breached these Terms, engaged in fraud or cheating, or acted in a way that harms other players, us, or a third party.</p>
+  <p>On termination, your licence ends immediately and any Virtual Items and progress associated with your account may be forfeited without refund, except where a refund is required by applicable law. Sections 4.1, 7, 8, 12, 13, 14, 15, and 18 survive termination.</p>
+
+  <h2 id="tos-12">12. Disclaimer of Warranties</h2>
+  <p class="legal">TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE GAME IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY. WE SPECIFICALLY DISCLAIM ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, AND ANY WARRANTY THAT THE GAME WILL BE UNINTERRUPTED, SECURE, OR FREE OF ERRORS, VIRUSES, OR DATA LOSS.</p>
+  <p>Some jurisdictions do not allow the exclusion of implied warranties, so some of the above exclusions may not apply to you. Nothing in these Terms limits your mandatory statutory rights as a consumer.</p>
+
+  <h2 id="tos-13">13. Limitation of Liability</h2>
+  <p class="legal">TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA, GOODWILL, GAME PROGRESS, OR VIRTUAL ITEMS, ARISING OUT OF OR RELATING TO THE GAME OR THESE TERMS, WHETHER BASED ON CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+  <p class="legal">OUR TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THE GAME OR THESE TERMS WILL NOT EXCEED THE GREATER OF (A) THE TOTAL AMOUNT YOU PAID US FOR IN-APP PURCHASES IN THE TWELVE (12) MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM, OR (B) TEN US DOLLARS (USD 10).</p>
+  <p>Nothing in these Terms excludes or limits our liability for death or personal injury caused by our negligence, for fraud or fraudulent misrepresentation, or for any other liability that cannot lawfully be excluded or limited.</p>
+
+  <h2 id="tos-14">14. Indemnification</h2>
+  <p>You agree to indemnify and hold us harmless from any claims, damages, losses, liabilities, and reasonable legal costs arising out of your breach of these Terms, your misuse of the Game, or your violation of any law or the rights of a third party.</p>
+
+  <h2 id="tos-15">15. Governing Law and Disputes</h2>
+  <p>These Terms are governed by the laws of the Hong Kong Special Administrative Region, without regard to its conflict-of-laws rules. The courts of the Hong Kong Special Administrative Region have exclusive jurisdiction over any dispute arising out of or relating to these Terms or the Game.</p>
+  <p>If you are a consumer resident in the European Union, the United Kingdom, or another jurisdiction whose law grants you the right to bring proceedings in your local courts and to benefit from mandatory local consumer protections, nothing in this section deprives you of those rights.</p>
+  <p>Before starting any formal proceedings, we ask that you first contact us at <a href="mailto:public.gamestudio@gmail.com">public.gamestudio@gmail.com</a> so that we can try to resolve the matter informally. Most concerns can be settled this way.</p>
+
+  <h2 id="tos-16">16. Additional Terms for Apple App Store Users</h2>
+  <p>The following applies if you obtained the Game from the Apple App Store:</p>
   <ul>
-    <li><strong>iOS（App 跟踪透明度）。</strong>在 iOS 14.5 及以上版本，我们会在访问 IDFA 用于跟踪前向您请求授权。若您拒绝，我们不会使用 IDFA，您看到的将是非个性化广告。您可随时在 <code>设置 &rsaquo; 隐私与安全性 &rsaquo; 跟踪</code> 中更改，或在 <code>设置 &rsaquo; 隐私与安全性 &rsaquo; Apple 广告</code> 中限制广告跟踪。</li>
-    <li><strong>Android。</strong>您可在 <code>设置 &rsaquo; Google &rsaquo; 广告</code> 中重置或删除广告 ID，并选择退出广告个性化。</li>
-    <li><strong>欧洲经济区／英国／瑞士。</strong>在法律要求的地区，我们会在首次启动时展示同意弹窗（Google UMP / AppLovin 同意流程），您可选择接受或拒绝个性化广告。您也可在游戏设置页的隐私选项中（如有）更改选择，或联系我们处理。</li>
+    <li><strong>Acknowledgement.</strong> These Terms are concluded between you and us only, and not with Apple Inc. ("Apple"). We, not Apple, are solely responsible for the Game and its content.</li>
+    <li><strong>Scope of licence.</strong> The licence granted in Section 2 is limited to a non-transferable licence to use the Game on any Apple-branded device that you own or control, as permitted by the Usage Rules in the Apple Media Services Terms and Conditions.</li>
+    <li><strong>Maintenance and support.</strong> We are solely responsible for providing any maintenance and support for the Game. Apple has no obligation to furnish any maintenance or support services.</li>
+    <li><strong>Warranty.</strong> To the maximum extent permitted by applicable law, Apple has no warranty obligation with respect to the Game. If the Game fails to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price (if any) for the Game; to the maximum extent permitted by law, Apple has no other warranty obligation whatsoever with respect to the Game.</li>
+    <li><strong>Product claims.</strong> We, not Apple, are responsible for addressing any claims relating to the Game or your possession and use of it, including product liability claims, any claim that the Game fails to conform to any applicable legal or regulatory requirement, and claims arising under consumer protection, privacy, or similar legislation.</li>
+    <li><strong>Intellectual property claims.</strong> In the event of any third-party claim that the Game or your possession and use of it infringes that third party's intellectual property rights, we, not Apple, will be solely responsible for the investigation, defence, settlement, and discharge of that claim.</li>
+    <li><strong>Legal compliance.</strong> You represent and warrant that you are not located in a country subject to a U.S. Government embargo or designated as a "terrorist supporting" country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.</li>
+    <li><strong>Third-party terms.</strong> You must comply with any applicable third-party terms of agreement when using the Game.</li>
+    <li><strong>Third-party beneficiary.</strong> Apple and its subsidiaries are third-party beneficiaries of these Terms, and upon your acceptance of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary.</li>
   </ul>
-  <p>拒绝追踪并不会移除广告，只会使您看到的广告与您的相关性降低。</p>
 
-  <h2 id="zh-6">6. 第三方服务</h2>
-  <p>本游戏接入了以下第三方服务。它们就其所接收的数据各自作为独立的控制者或受托处理者，并适用各自的隐私政策：</p>
+  <h2 id="tos-17">17. Changes to These Terms</h2>
+  <p>We may update these Terms from time to time. When we do, we will revise the "Last updated" date at the top of this page, and for material changes we will give notice inside the Game or through the app store listing before the changes take effect. Your continued use of the Game after the effective date means you accept the revised Terms. If you do not accept them, you must stop using the Game and uninstall it.</p>
 
-  <table>
-    <thead>
-      <tr><th>服务</th><th>用途</th><th>隐私政策</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Apple（App Store、内购、Apple 登录、Game Center）</td><td>分发、支付、可选登录</td><td><a href="https://www.apple.com/legal/privacy/" rel="noopener">apple.com/legal/privacy</a></td></tr>
-      <tr><td>Google Play（结算、Play 服务、登录）</td><td>分发、支付、可选登录</td><td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
-      <tr><td>Unity Technologies</td><td>游戏引擎与运行时服务</td><td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">unity.com/legal</a></td></tr>
-      <tr><td>Google Firebase（分析、Crashlytics、消息推送、远程配置）</td><td>数据分析、崩溃收集、推送通知、配置下发</td><td><a href="https://firebase.google.com/support/privacy" rel="noopener">firebase.google.com/support/privacy</a></td></tr>
-      <tr><td>Google AdMob / Google Mobile Ads</td><td>广告</td><td><a href="https://policies.google.com/technologies/ads" rel="noopener">policies.google.com/technologies/ads</a></td></tr>
-      <tr><td>AppLovin MAX</td><td>广告聚合与投放</td><td><a href="https://www.applovin.com/privacy/" rel="noopener">applovin.com/privacy</a></td></tr>
-      <tr><td>Amazon Publisher Services</td><td>广告需求方与变现</td><td><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" rel="noopener">amazon.com 隐私声明</a></td></tr>
-      <tr><td>Adjust GmbH</td><td>安装归因与营销效果衡量</td><td><a href="https://www.adjust.com/terms/privacy-policy/" rel="noopener">adjust.com/terms/privacy-policy</a></td></tr>
-      <tr><td>Meta / Facebook SDK</td><td>可选账号绑定、分享、营销衡量</td><td><a href="https://www.facebook.com/privacy/policy/" rel="noopener">facebook.com/privacy/policy</a></td></tr>
-    </tbody>
-  </table>
-
-  <p class="meta">实际启用的服务可能因平台、地区与应用版本而异，上表中的部分服务在特定版本中可能处于关闭状态。</p>
-
-  <h2 id="zh-7">7. 信息的共享</h2>
-  <p>我们仅在以下情形共享信息：</p>
+  <h2 id="tos-18">18. General Provisions</h2>
   <ul>
-    <li><strong>与第 6 节所列服务提供方共享</strong>，且严格限于本政策所述目的。</li>
-    <li><strong>基于法律原因</strong>——法律、法院命令或合法的政府要求所需，或为调查欺诈、安全事件及违反服务条款的行为。</li>
-    <li><strong>业务转让</strong>——若我们发生合并、收购或资产出售，您的信息可能随之转移，并继续受本政策约束。</li>
-    <li><strong>经您同意</strong>——用于届时向您披露的其他目的。</li>
+    <li><strong>Entire agreement.</strong> These Terms, together with the Privacy Policy, form the entire agreement between you and us regarding the Game and supersede any prior agreements on that subject.</li>
+    <li><strong>Severability.</strong> If any provision is held invalid or unenforceable, the remaining provisions remain in full force, and the invalid provision will be replaced by a valid one that most closely reflects its intent.</li>
+    <li><strong>No waiver.</strong> Our failure to enforce any provision is not a waiver of our right to do so later.</li>
+    <li><strong>Assignment.</strong> You may not assign or transfer these Terms or any rights under them. We may assign them in connection with a merger, acquisition, or sale of assets.</li>
+    <li><strong>Force majeure.</strong> We are not liable for any delay or failure to perform caused by events beyond our reasonable control.</li>
+    <li><strong>Language.</strong> These Terms are drafted in English. Any translation is provided for convenience only, and the English version prevails in the event of a conflict.</li>
   </ul>
-  <p>我们不会将您的个人信息出售给数据经纪商。</p>
 
-  <h2 id="zh-8">8. 数据保留期限</h2>
+  <h2 id="tos-19">19. Contact Us</h2>
+  <p>If you have any questions about these Terms, contact us at:</p>
   <ul>
-    <li>与绑定账号关联的游戏进度在账号处于活跃状态期间保留；收到经核验的删除请求后 90 天内删除。</li>
-    <li>分析与广告事件数据以汇总或去标识化形式保留，通常不超过 26 个月。</li>
-    <li>崩溃与诊断日志通常保留不超过 90 天。</li>
-    <li>购买记录按照税务与会计法律要求的期限保留。</li>
+    <li><strong>Email:</strong> <a href="mailto:public.gamestudio@gmail.com">public.gamestudio@gmail.com</a></li>
+    <li><strong>Company:</strong> MoBi GameStudio</li>
   </ul>
-  <p>仅存储在您设备本地的游戏数据将在您卸载本游戏时一并删除。</p>
-
-  <h2 id="zh-9">9. 数据安全</h2>
-  <p>我们采取技术与管理措施保护您的信息，包括传输加密（HTTPS/TLS）、访问控制，以及将访问权限限制在确有需要的人员。但任何传输或存储方式都无法做到绝对安全，我们无法保证信息的绝对安全性。</p>
-
-  <h2 id="zh-10">10. 儿童隐私</h2>
-  <p>本游戏并非面向 13 周岁以下儿童（或您所在国家／地区规定的最低年龄，例如欧洲经济区部分国家为 16 周岁）。我们不会在明知的情况下收集该年龄以下儿童的个人信息。</p>
-  <p>在法律要求的情形下，我们会启用适龄设置，并仅向被识别为儿童的用户投放非个性化的情景广告。</p>
-  <p>若您是家长或监护人，并认为您的孩子向我们提供了个人信息，请通过第 14 节的方式联系我们，我们将尽快删除。</p>
-
-  <h2 id="zh-11">11. 数据跨境传输</h2>
-  <p>我们及服务提供方可能在您所在国家／地区之外处理和存储信息，包括美国及亚洲的部分国家。当数据从欧洲经济区或英国传出时，我们会采取适当保障措施，例如欧盟委员会标准合同条款或充分性认定。</p>
-
-  <h2 id="zh-12">12. 您的权利</h2>
-
-  <h3>12.1 所有用户</h3>
-  <p>您可以要求访问、更正或删除我们持有的关于您的信息，也可以反对或限制某些处理活动。提出请求时，请通过第 14 节的邮箱联系我们，并附上您的游戏内玩家 ID（可在游戏设置页查看），以便我们定位您的数据。</p>
-
-  <h3>12.2 欧洲经济区／英国（GDPR）</h3>
-  <p>您享有访问权、更正权、删除权、限制处理权、数据可携权与反对权，并可随时撤回同意（撤回不影响撤回前基于同意进行处理的合法性）。您也有权向当地数据保护监管机构投诉。</p>
-
-  <h3>12.3 美国加利福尼亚州（CCPA / CPRA）</h3>
-  <p>加州居民有权知悉我们收集的个人信息类别及其使用与共享方式，有权要求删除或更正，并有权选择退出为跨场景行为广告而"出售"或"共享"个人信息。行使退出权可在系统弹窗中拒绝追踪（见第 5 节）或联系我们。我们不会因您行使上述权利而对您区别对待。</p>
-
-  <h3>12.4 删除您的数据</h3>
-  <p>卸载本游戏即可删除全部本地存储的游戏数据。如需删除与绑定账号关联的服务器端数据，请发送邮件并提供玩家 ID；我们将在 30 天内完成确认与删除，最迟不超过 90 天。</p>
-
-  <h2 id="zh-13">13. 政策变更</h2>
-  <p>我们可能不时更新本政策。更新时会修改本页顶部的"最近更新"日期；若变更具有实质性，我们还会在游戏内予以提示。更新后您继续使用本游戏，即视为接受修订后的政策。</p>
-
-  <h2 id="zh-14">14. 联系我们</h2>
-  <p>如您对本政策或您的数据有任何疑问、请求或投诉，请通过以下方式联系我们：</p>
-  <ul>
-    <li><strong>电子邮箱：</strong><a href="mailto:public.gamestudio@gmail.com">public.gamestudio@gmail.com</a></li>
-    <li><strong>公司名称：</strong>MoBi GameStudio</li>
-  </ul>
-  <p>我们将在 30 天内回复所有请求。</p>
 </section>
 
   <footer>
@@ -399,31 +407,66 @@
 
 <script>
 (function () {
-  var buttons = document.querySelectorAll('.switch button');
-  var sections = { en: document.getElementById('lang-en'), zh: document.getElementById('lang-zh') };
+  var buttons = document.querySelectorAll('.tabs button');
+  var sections = {
+    privacy: document.getElementById('tab-privacy'),
+    terms: document.getElementById('tab-terms')
+  };
+  var titles = {
+    privacy: 'Privacy Policy - Brick Master',
+    terms: 'Terms of Service - Brick Master'
+  };
 
-  function apply(lang) {
-    if (!sections[lang]) lang = 'en';
-    sections.en.hidden = (lang !== 'en');
-    sections.zh.hidden = (lang !== 'zh');
-    document.documentElement.lang = (lang === 'zh') ? 'zh-CN' : 'en';
-    document.title = (lang === 'zh') ? '隐私政策 - Brick Master' : 'Privacy Policy - Brick Master';
+  // Maps a URL hash to a tab: "#privacy" / "#terms" select a document directly,
+  // while section anchors ("#pp-3", "#tos-12") imply the tab that contains them.
+  function tabFromHash(hash) {
+    var h = String(hash || '').replace('#', '').toLowerCase();
+    if (h === 'privacy' || h.indexOf('pp-') === 0) return 'privacy';
+    if (h === 'terms' || h === 'tos' || h.indexOf('tos-') === 0) return 'terms';
+    return null;
+  }
+
+  function apply(tab) {
+    if (!sections[tab]) tab = 'privacy';
+    sections.privacy.hidden = (tab !== 'privacy');
+    sections.terms.hidden = (tab !== 'terms');
+    document.title = titles[tab];
     for (var i = 0; i < buttons.length; i++) {
-      buttons[i].setAttribute('aria-pressed', String(buttons[i].getAttribute('data-lang') === lang));
+      buttons[i].setAttribute('aria-pressed', String(buttons[i].getAttribute('data-tab') === tab));
     }
-    try { localStorage.setItem('bm-privacy-lang', lang); } catch (e) {}
+    return tab;
+  }
+
+  function show(tab, hash) {
+    tab = apply(tab);
+    var target = hash ? document.getElementById(String(hash).replace('#', '')) : null;
+    try {
+      history.replaceState(null, '', '#' + (hash ? String(hash).replace('#', '') : tab));
+    } catch (e) {}
+    // The anchor was hidden while the other tab was active, so scroll it manually.
+    if (target) target.scrollIntoView();
+    else window.scrollTo(0, 0);
   }
 
   for (var i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('click', function () { apply(this.getAttribute('data-lang')); });
+    buttons[i].addEventListener('click', function () { show(this.getAttribute('data-tab'), null); });
   }
 
-  var initial = null;
-  try { initial = localStorage.getItem('bm-privacy-lang'); } catch (e) {}
-  if (!initial) {
-    initial = (String(navigator.language || '').toLowerCase().indexOf('zh') === 0) ? 'zh' : 'en';
+  // Cross-document links inside the body (e.g. Terms -> Privacy Policy).
+  var jumps = document.querySelectorAll('[data-jump]');
+  for (var j = 0; j < jumps.length; j++) {
+    jumps[j].addEventListener('click', function (ev) {
+      ev.preventDefault();
+      show(this.getAttribute('data-jump'), null);
+    });
   }
-  apply(initial);
+
+  window.addEventListener('hashchange', function () {
+    var tab = tabFromHash(location.hash);
+    if (tab) apply(tab);
+  });
+
+  apply(tabFromHash(location.hash) || 'privacy');
 })();
 </script>
 </body>
